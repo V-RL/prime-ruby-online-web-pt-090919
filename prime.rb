@@ -6,5 +6,6 @@ def prime?(num)
   num.any? !== d
   return false 
 end
+end
 true
 end
