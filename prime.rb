@@ -1,4 +1,3 @@
-
 def is_prime?(n)
   foundDivider = false
    for d in 2..(n - 1)
