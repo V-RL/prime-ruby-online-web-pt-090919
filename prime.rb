@@ -7,7 +7,7 @@ end
 true
 end
 
-def is_prime?(num)
+def is_prime?(n)
   foundDivider = false
    for d in 2..(n - 1)
     foundDivider = ((n % d) == 0) || foundDivider
