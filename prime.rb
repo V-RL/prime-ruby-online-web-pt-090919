@@ -3,8 +3,6 @@ def prime?(num)
   if (num % d) == 0 
     return false
   end
-  num.any? != prime?
-  return false 
 end
 true
 end
